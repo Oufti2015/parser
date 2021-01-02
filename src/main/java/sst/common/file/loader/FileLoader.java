@@ -1,6 +1,6 @@
 package sst.common.file.loader;
 
-import lombok.extern.log4j.Log4j;
+import lombok.extern.log4j.Log4j2;
 import sst.common.file.loader.interfaces.RecordFormatter;
 import sst.common.file.loader.interfaces.RecordParser;
 import sst.common.file.loader.interfaces.RecordSelector;
@@ -16,7 +16,7 @@ import java.util.Collection;
  * @author Steph
  */
 
-@Log4j
+@Log4j2
 public class FileLoader {
 
     private boolean ignoreErrors = true;
